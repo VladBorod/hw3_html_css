@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Gilroy-Medium";
+    /* font-family: "Roboto"; */
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/GilroyBold/GilroyBold.eot");
+    src: url("../fonts/GilroyBold/GilroyBold.eot?#iefix")format("embedded-opentype"), url("../fonts/GilroyBold/GilroyBold.woff") format("woff"), url("../fonts/GilroyBold/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+body {
+    background: #FFF;
+    width: 1920px;
+    height: 942px;
+}
+
+.head {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.menu {
+    padding-top: 51x;
+    padding-right: 1408px;
+    padding-left: 424px;
+    display: flex;
+    gap: 40px;
+}
+
+.menu_item {
+    color: #000;
+    font-family: "Gilroy-Medium";
+    /* font-family: "Roboto"; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: 40px;
+}
+
+.menu_item_pseudo {
+    color: #000;
+    font-family: "Gilroy-Medium";
+    /* font-family: "Roboto"; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.menu_item_orange {
+    color: #F25822;
+    font-family: "Gilroy-Medium";
+    display: flex;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    padding-left: 48px;
+}
+
+.logo_text {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.logo_orange {
+    color: #F25822;
+}
+
+.logo_img {
+    width: 35px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.top {
+    padding-top: 44px;
+    padding-bottom: 162px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top_content {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    /* font-family: "Roboto Condensed"; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 40.94px;
+    width: 522px;
+    height: 374px;
+}
+
+.top_content__text_h1 {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    /* font-family: "Roboto Condensed"; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 17px;
+}
+
+.top_content__text_p {
+    color: #888;
+    font-family: "Gilroy-Medium";
+    /* font-family: "Roboto"; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 37px;
+}
+
+.top_img {
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+}
+
+.top_content__button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 72px;
+}
+
+
+/* crib for svg in button */
+
+
+/* ---------------------- */
+
+.top_content__button_svg {
+    width: 17px;
+    height: 13px;
+    /* transform: rotate(90deg); */
+    fill: var(--ffffff, #f80404);
+    mask-image: red;
+}
+
+.top_content__button_text {
+    color: #FFF;
+    font-family: "Gilroy-Bold";
+    /* font-family: "Roboto"; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_content__button_familiarization {
+    color: #AAA;
+    font-family: "Gilroy-Bold";
+    /* font-family: "Roboto"; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_logo {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -5,82 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Roboto+Condensed:wght@100&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
-    <div class="head">
-        <div class="logo_text">
+    <div class="head center">
+        <div class="logo">
             <img class="logo_img" src="img/logo_img.png" alt="logo png">
-            <!-- макаронный вариант раскраски надписи лого -->
-            Grow<span class="logo_text__orange">Be</span>
-            <!-- не понятная реализация ссылок меню, пришлось колхозить -->
-            <a class="header_home_orange" href="#">Home</a>
-            <a class="header" href="#">About Us</a>
-            <a class="header" href="#">Services</a>
-            <a class="header" href="#">Fetures
-                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+            <p class="logo_text">Grow<span class="logo_orange">Be</span></p>
+        </div>
+        <div class="menu">
+            <a class="menu_item_orange" href="#">Home</a>
+            <a class="menu_item" href="#">AboutUs</a>
+            <a class="menu_item" href="#">Services</a>
+            <a class="menu_item_pseudo" href="#">Fetures
+                <svg class="menu_item_pseudo" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
                     <path d="M1 1L4 4L7 1" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
             </a>
-            <a class="header" href="#">Team</a>
-            <a class="header" href="#">Blog</a>
-            <a class="header" href="#">Contact</a>
+            <a class="menu_item" href="#">Team</a>
+            <a class="menu_item" href="#">Blog</a>
+            <a class="menu_item" href="#">Contact</a>
         </div>
     </div>
-    <div class="top">
+    <div class="top center">
         <div class="top_content">
-            <table width="100%" cellspacing="0" cellpadding="0">
-                <td>
-                    <!-- вариант с параграфом вместо заголовка делает текст адекватного размера -->
-                    <p>SEO & Digital Marketing For Your Website.</p>
-                    <p class="top_content__text">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
-                    <table>
-                        <td>
-                            <button class="top_content__button">
-                                <!-- <img class="top_content__button_svg" src="/svg/start_flag.svg" alt="start flag picture"> -->
-                                <span class="top_content__button_text">
-                                    Start Now
-                                </span>
-                            </button>
-                        </td>
-                        <td>
-                            <input class="top_content__button_familiarization" type="button" id="link" value="Watch Video">
-                        </td>
-                    </table>
-                </td>
-                <td>
-                    <div class="top_img">
-                        <img class="top_img" src="img/side_img.png" alt="side png">
-                    </div>
-                </td>
-            </table>
-            <!-- footer_logos--------------------------- -->
+            <div class="top_content__text_h1">
+                <h1>SEO & Digital Marketing For Your Website.</h1>
+            </div>
+            <div class="top_content__text_p">
+                <p class="top_content__text_p">Provide all kind of seo services and help to improve seo ranking. Globally incubate standards.</p>
+            </div>
+            <div class="top_content__button">
+                <button class="top_content__button">
+                                    <!-- <img class="top_content__button_svg" src="/svg/start_flag.svg" alt="start flag picture"> -->
+                                    <span class="top_content__button_text">
+                                        Start Now
+                                    </span>
+                                </button>
+                <input class="top_content__button_familiarization" type="link" id="link" value="Watch Video">
+            </div>
+        </div>
+        <div class="top_img">
+            <img class="top_img" src="img/side_img.png" alt="side png">
         </div>
     </div>
-    <div class="top_logo">
-        <table width="100%" cellspacing="0" cellpadding="0">
-            <td>
-                <img src="img/footer_logos/footer_logo_1.png" alt="first logo">
-            </td>
-            <td>
-                <img src="img/footer_logos/footer_logo_2.png" alt="first logo">
-            </td>
-            <td>
-                <img src="img/footer_logos/footer_logo_3.png" alt="first logo">
-            </td>
-            <td>
-                <img src="img/footer_logos/footer_logo_4.png" alt="first logo">
-            </td>
-            <td>
-                <img src="img/footer_logos/footer_logo_5.png" alt="first logo">
-            </td>
-            <td>
-                <img src="img/footer_logos/footer_logo_6.png" alt="first logo">
-            </td>
-        </table>
+    <div class="top_logo center">
+        <img src="img/footer_logos/footer_logo_1.png" alt="first logo">
+        <img src="img/footer_logos/footer_logo_2.png" alt="first logo">
+        <img src="img/footer_logos/footer_logo_3.png" alt="first logo">
+        <img src="img/footer_logos/footer_logo_4.png" alt="first logo">
+        <img src="img/footer_logos/footer_logo_5.png" alt="first logo">
+        <img src="img/footer_logos/footer_logo_6.png" alt="first logo">
     </div>
-
 </body>
 
 </html>
